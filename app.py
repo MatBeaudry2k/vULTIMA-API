@@ -33,7 +33,4 @@ def get_pitching_stats():
     start = request.args.get('start', default="2024-04-01")
     end = request.args.get('end', default="2024-08-01")
     stats = pitching_stats_range(start, end)
-    return stats.head(20).to_json(orient='records')
-
-if __name__ == '__main__':
-    app.run()
+    return stats.head(20).to_json(orient='records'
