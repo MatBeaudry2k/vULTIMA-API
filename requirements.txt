@@ -1,5 +1,7 @@
-Flask==2.3.3
-gunicorn==21.2.0
-pandas==1.5.3
-pybaseball==2.2.3
-numpy==1.23.5
+flask
+pandas==2.1.4
+numpy
+pybaseball
+requests
+beautifulsoup4
+gunicorn
