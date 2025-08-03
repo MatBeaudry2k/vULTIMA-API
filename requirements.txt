@@ -1,7 +1,7 @@
 flask
-pandas==2.1.4
-numpy
-pybaseball
+pandas==1.5.3
+numpy==1.24.4
+pybaseball==2.1.0
+gunicorn==21.2.0
 requests
 beautifulsoup4
-gunicorn
